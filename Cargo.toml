@@ -1,0 +1,11 @@
+[package]
+name = "asciiquarium"
+version = "0.1.0"
+edition = "2021"
+description = "An aquarium/sea animation in your terminal, with colored ASCII art"
+
+[dependencies]
+crossterm = "0.28"
+rand = "0.8"
+clap = { version = "4", features = ["derive"] }
+image = "0.25"
